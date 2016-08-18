@@ -240,3 +240,53 @@ body {
     top: 20px;
     background: #5fd69f;
 }
+
+
+
+/*********************\
+                $About
+\*********************/
+
+.aboutHeadingContainer {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutHeadingContainer h2 {
+    font-family: 'doctor_soos_boldbold';
+    color: #5fd69f;
+    font-size: 420%;
+}
+
+.aboutParagraphContainer {
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.aboutParagraphContainer p {
+    font-family: 'doctor_soos_lightregular';
+    font-size: 150%;
+    line-height: 1.5em;
+}
+
+
+
+/*********************\
+                $Work
+\*********************/
+
+.workHeadingContainer {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.workHeadingContainer h2 {
+    font-family: 'doctor_soos_boldbold';
+    color: #5fd69f;
+    font-size: 420%;
+}
