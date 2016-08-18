@@ -4,6 +4,29 @@
 
 
 /******************************************\
+                $Imported Fonts
+\******************************************/
+
+@font-face {
+    font-family: 'doctor_soos_boldbold';
+    src: url('Dr_Soos_font-kit/doctor_soos_bold-webfont.woff2') format('woff2'),
+           url('Dr_Soos _font-kit/doctor_soos_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'doctor_soos_lightregular';
+   src: url('Dr_Soos_font-kit/doctor_soos_light-webfont.woff2') format('woff2'),
+          url('Dr_Soos_font-kit/doctor_soos_light-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+
+/******************************************\
                 $CSS Reset
 \******************************************/
 
@@ -58,12 +81,39 @@ body {
 
 /*   Pixel measurments are for mobile unless stated otherwise in an associated comment.   */
 
-/***Welcome section***/
+/***HomePage***/
 
 .homePage {
-    background: skyblue;
+    background: #5fd69f;
     width: 100%;
     height: 100%;
+}
+
+.nameHeading {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    text-align: center;
+    color: white;
+}
+
+.nameHeading h1 {
+    font-family: 'doctor_soos_boldbold';
+    font-size: 800%;
+}
+
+.titleHeading {
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-55%);
+    text-align: center;
+}
+
+.titleHeading h3 {
+    font-family: 'doctor_soos_lightregular';
+    font-size: 250%;
 }
 
 
@@ -103,10 +153,10 @@ body {
 }
 
 .main-nav a {
-    color: skyblue;
-    font-family: 'Droid Sans' , sans-serif;
+    font-family: 'doctor_soos_lightregular';
+    color: #5fd69f;
     font-weight: 400;
-    font-size: xx-large;
+    font-size: 400%;
 }
 
 
@@ -174,7 +224,7 @@ body {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);   /* rotates 1st span line down, clockwise */
     top: -1px;    /* moves post-rotated span line along y-axis*/
-    background: skyblue;
+    background: #5fd69f;
 }
 
 .hamburger.open span:nth-child(2) {  /* makes 2nd span line dissapear */
@@ -188,5 +238,5 @@ body {
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);   /* rotates 3rd span line up, counter-clockwise */
     top: 20px;
-    background: skyblue;
+    background: #5fd69f;
 }

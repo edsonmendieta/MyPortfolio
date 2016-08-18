@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="250"
+   height="143"
+   viewBox="0 0 250 143"
    id="svg4737"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -25,20 +25,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="-186.42944"
-     inkscape:cy="614.03678"
+     inkscape:zoom="8"
+     inkscape:cx="40.591891"
+     inkscape:cy="2.3019759"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     showborder="false"
+     showborder="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
      id="metadata4742">
     <rdf:RDF>
@@ -54,10 +55,11 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-909.36214)">
     <g
        id="g4697"
-       transform="translate(-9.5459416,-20.152543)">
+       transform="translate(311.07856,506.84626)">
       <g
          transform="matrix(0.49504122,0,0,0.49402392,-28.015949,276.04628)"
          id="g4689">
