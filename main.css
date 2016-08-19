@@ -248,7 +248,7 @@ body {
 \*********************/
 
 .aboutHeadingContainer {
-    margin-top: 50px;
+    margin-top: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -279,7 +279,7 @@ body {
 \*********************/
 
 .workHeadingContainer {
-    margin-top: 50px;
+    margin-top: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -315,4 +315,49 @@ body {
     width: 100%;
     margin-bottom: 30px;
     border: 3px solid #5fd69f;
+}
+
+
+
+/*********************\
+                $Contact
+\*********************/
+
+.contactHeadingContainer {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contactHeadingContainer h2 {
+    font-family: 'doctor_soos_boldbold';
+    color: #5fd69f;
+    font-size: 420%;
+}
+
+.email {
+    margin-top: 65px;
+    width: 100%;
+    text-align: center;
+    font-family: 'doctor_soos_lightregular';
+    font-size: 150%;
+}
+
+.iconContainer {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 300%;
+}
+
+.iconContainer i {
+    color: #5fd69f;
+}
+
+.twitter {
+    padding-right: 2%;
+}
+
+.github {
+    padding-left: 2%;
 }
