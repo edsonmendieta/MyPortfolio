@@ -28,10 +28,10 @@ $('.local-link').on('click', function() {
 
 // Refreshes page each time browser is re-sized
 
-window.addEventListener('resize', function () {
-    "use strict";
-    window.location.reload();
-});
+// window.addEventListener('resize', function () {
+//     "use strict";
+//     window.location.reload();
+// });
 
 
 

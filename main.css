@@ -69,6 +69,8 @@ color: #EBB000;
                 $Main
 \******************************************/
 
+
+
 html {
     width: 100%;
     height: 100%;
@@ -89,29 +91,48 @@ body {
     height: 100%;
 }
 
-.nameHeading {
+.headPicContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.headPic {
+    width: 50%;
+    height: auto;
+}
+
+/*.nameHeading {
     width: 100%;
+    height: 100%;
     position: absolute;
     top: 40%;
     transform: translateY(-40%);
     text-align: center;
     color: white;
-}
+}*/
 
-.nameHeading h1 {
+.nameHeading {
+    width: 100%;
+    text-align: center;
     font-family: 'doctor_soos_boldbold';
     font-size: 800%;
+    color: white;
+    padding: 0;
 }
 
-.titleHeading {
+/*.titleHeading {
     width: 100%;
+    height: 100%;
     position: absolute;
     top: 55%;
     transform: translateY(-55%);
     text-align: center;
-}
+}*/
 
-.titleHeading h3 {
+.titleHeading {
+    width: 100%;
+    text-align: center;
     font-family: 'doctor_soos_lightregular';
     font-size: 250%;
 }
@@ -360,4 +381,50 @@ body {
 
 .github {
     padding-left: 2%;
+}
+
+
+/******************************************\
+                $Media Querys
+\******************************************/
+
+
+@media(max-width: 1167px) {
+
+    .nameHeading {
+        font-size: 650%;
+    }
+
+    .titleHeading {
+        font-size: 250%;
+    }
+
+}
+
+
+@media(max-width: 850px) {
+    .nameHeading {
+        font-size: 600%;
+    }
+}
+
+
+@media(max-width: 600px) {
+    .titleHeading {
+        font-size: 200%;
+    }
+}
+
+
+@media(max-width: 411px) {
+
+    .nameHeading {
+        font-size: 450%;
+    }
+
+    .titleHeading {
+        font-size: 150%;
+    }
+
+
 }
