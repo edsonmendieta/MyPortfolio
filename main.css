@@ -388,7 +388,7 @@ body {
                 $Media Querys
 \******************************************/
 
-
+/* media query -------------------------------------- */
 @media(max-width: 1167px) {
 
     .nameHeading {
@@ -401,21 +401,21 @@ body {
 
 }
 
-
+/* media query -------------------------------------- */
 @media(max-width: 850px) {
     .nameHeading {
         font-size: 600%;
     }
 }
 
-
+/* media query -------------------------------------- */
 @media(max-width: 600px) {
     .titleHeading {
         font-size: 200%;
     }
 }
 
-
+/* media query -------------------------------------- */
 @media(max-width: 411px) {
 
     .nameHeading {
@@ -427,4 +427,49 @@ body {
     }
 
 
+}
+
+/* Nexus 5x -------------------------------------- */
+/* Portrait */
+@media(min-width: 412px) {
+    .titleHeading {
+        font-size: 170%;
+    }
+    .headPic {
+        width: 20%;
+        height: 100%;     /* had "height: auto" which expanded the img element height so that it was the full height of its parent container. "height: 100%" makes the img element height = to exact height of SVG so that there is not extra height keeping the picture from being flush with the top of the window. */
+    }
+    .nameHeading {
+        font-size: 400%;
+    }
+}
+
+/* Height */
+@media(max-height: 396px) {
+    .headPicContainer {
+        padding-top: 2%;
+    }
+}
+
+@media(min-height: 397px) and (max-height: 599px) {
+    .headPicContainer {
+        padding-top: 10%;   /* had 50px of top padding */
+    }
+    .headPic {
+        width: 20%;
+        height: 100%;     /* had "height: auto" which expanded the img element height so that it was the full height of its parent container. "height: 100%" makes the img element height = to exact height of SVG so that there is not extra height keeping the picture from being flush with the top of the window. */
+    }
+    .nameHeading {
+        font-size: 400%;
+    }
+}
+
+@media(min-height: 600px) and (max-height: 683px) {
+    .headPicContainer {
+        padding-top: 10%;   /* had 50px of top padding */
+    }
+    .headPic {
+        width: 20%;
+        height: 100%;     /* had "height: auto" which expanded the img element height so that it was the full height of its parent container. "height: 100%" makes the img element height = to exact height of SVG so that there is not extra height keeping the picture from being flush with the top of the window. */
+    }
 }
