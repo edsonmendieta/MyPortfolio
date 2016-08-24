@@ -429,6 +429,30 @@ body {
 
 }
 
+/******************************************\
+                $ Work Section Querys
+\******************************************/
+/* width - media query -------------------------------------- */
+@media(max-width: 910px) {
+    .thumbnailBox {
+        font-size: 120%;
+    }
+}
+
+/* width - media query -------------------------------------- */
+@media(max-width: 730px) {
+    .thumbnailBox {
+        display: block;
+        width: 30%;
+        padding-left: 10%;
+        padding-right: 5%;
+        float: left;
+        margin-bottom: 100px;
+    }
+
+}
+
+
 
 
 /******************************************\
